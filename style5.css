@@ -1,0 +1,53 @@
+body{
+	background-size: cover;
+	background-position: center;
+	color: #fff !important;
+}
+.services{
+	margin: 90px;
+	text-align: center;
+}
+h1{
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+h1::after{
+	content: '';
+	background: whitesmoke;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 20px auto 5px;
+}
+.col-md-3:hover{
+	border: 1px solid #fff ;
+	transition: 0.2s;
+}
+.col-md-6 {
+	position: absolute;
+	margin: 20px auto 10px;
+	padding-bottom: 10px;
+}
+p{
+	transition: .5s;
+}
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 100px;
+	width: 150px;
+	border: 1px solid #fff;
+	border-radius: 12px;
+}
+i{
+	justify-content: center;
+}
+h3{
+	font-size: 18px;
+	color: #333;
+}
+.col-md-3{
+	background: #fff;
+}
