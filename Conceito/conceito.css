@@ -19,13 +19,16 @@ header{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding: 30px 10%;
+	padding: 15px 2%;
 	background-color: #000;
 }
 
 .logo{
 	cursor: pointer;
-	margin-right: auto;
+    margin-right: auto;
+    color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 }
 .n_links{
 	list-style: none;
@@ -44,15 +47,11 @@ header{
 
 button{
 	padding: 9px 25px;
-	background-color: #8c8c8b;
+	background-color: #000;
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
-}
-
-button:hover{
-	background-color: rgb(163, 163, 163);
 }
 .box{
 	text-align: center;

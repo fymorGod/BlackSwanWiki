@@ -49,10 +49,14 @@ h3{
 	font-size: 18px;
 	color: #333;
 }
+h5{
+	color: #000;
+}
 #subtitle{
 	font-size: 12px;
 	color: #333;
 }
 .col-md-3{
+	text-align:center;
 	background: #fff;
 }
