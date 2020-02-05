@@ -12,21 +12,29 @@ html{
 body{
 	background-color: #000;
 }
-li, a , button{
+.navbar-brand{
 	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-size: 16px;
+	color: #fff;
+	padding-left: 10px;
+}
+.navbar-brand:hover{
+	color: #fff;
 	text-decoration: none;
-	color: #edf0f1;
+}
+.nav-item{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+.nav-item a:hover{
+	color: #fff;
+}
+.nav-link{
+	color: #fff;
+	text-decoration: none;
 }
 
-header{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 30px 10%;
-	background-color: #000;
-}
 h2{
 	color: #fff;
 	font-size: 24px;
@@ -44,40 +52,8 @@ h2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;	
 }
-
-.logo{
-	cursor: pointer;
-	margin-right: auto;
-}
-.n_links{
-	list-style: none;
-}
-.n_links li{
-	display: inline-block;
-	padding: 0px 20px;
-}
-
-.n_links li a{
-	transition: all 0.3s ease 0s;
-}
-.n_links li a:hover{
-	color: rgb(163, 163, 163);
-}
-
-button{
-	padding: 9px 25px;
-	background-color: #8c8c8b;
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
-}
-
-button:hover{
-	background-color: rgb(163, 163, 163);
-}
 h1{
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
 	transition: 0.5s
@@ -132,6 +108,7 @@ h1::after{
 	border-radius: .4rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
+	text-decoration: none;
 	box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
 }
 
@@ -150,16 +127,19 @@ h1::after{
 .accordion-link i{
 	color: #fff;
 	padding: 2px;
+	text-decoration: none;
 }
 .accordion-link .ion-md-remove{
 	display: none;
+	text-decoration: none;
 }
 .answer{
 	max-height: 0;
 	overflow: hidden;
 	position: relative;
 	background-color: #555;
-	transition: max-height 650ms;
+	transition: max-height 625ms;
+	text-decoration: none;
 }
 
 .answer::before{
